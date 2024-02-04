@@ -8,38 +8,41 @@
 </head>
 <body>
     <div class="leftSide">
-        <img src="images/background.jpg" alt="background" width="600px">
+        <img src="images/background.jpg" alt="background"  height ="90%"width="670px">
         <div class="logo">
-            <img src="images/odin-lined.png" alt="logo" width="150px">
+            <img src="images/odin-lined.png" alt="logo" width="100px">
             <h1>ODIN</h1>
+            <p class="credits">Photo by <a href="https://unsplash.com/es/@haliewestphoto">Hali West</a> on <a href="https://unsplash.com/">Unsplash</a></p>
         </div>
     </div>
     <div class="rightSide">
         <div class="upperPart">
             <div class="mainText">
-                <h1>This is a total real online service! You know that you need to sign up in this 100% real page that wasn't created with just educational purpose. Sign up now to get started.</h1>
+                <h1>This is a completely genuine online service! You need to sign up on this 100% real website that wasn't created solely for educational purposes. Sign up now to get started.</h1>
                 <h1>You <span>know</span> you want to.</h1>
             </div>
         </div>
 
         <div class="formBlock">
             <h1>Let's do it!</h1>
-            <form id="form" action="#" method="get" class="mainForm">
+            <form id="form" action="https://httpbin.org/post" method="post" class="mainForm">
                 <div class="leftBlock">
 
                     <div class="block">
                         <label for="firstName">FIRST NAME</label>
-                        <input type="text" id="firstName" name="name" required>
+                        <input type="text" id="firstName" name="name" placeholder="Name">
+                        
                     </div>
         
                     <div class="block">
                         <label for="email">EMAIL</label>
-                        <input type="email" id="email" name="email" required>
+                        <input type="email" id="email" name="email" placeholder="Email">
+
                     </div>
 
                     <div class="block">
                         <label for="password">PASSWORD</label>
-                        <input type="password" id="password" name="password" minlength="8" required >
+                        <input type="password" id="password" name="password" minlength="8" placeholder="Password">
                     </div>
                 </div>
 
@@ -47,17 +50,17 @@
 
                     <div class="block">
                         <label for="lastName">LAST NAME</label>
-                        <input type="text" id="lastName" name="lastName" required>
+                        <input type="text" id="lastName" name="lastName" placeholder="Last Name">
                     </div>
 
                     <div class="block">
                         <label for="phone">PHONE NUMBER</label>
-                        <input type="tel" id="phone" name="phone" required>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]" placeholder="Phone number">
                     </div>
 
                     <div class="block">
                         <label for="CONFIRMpassword">CONFIRM PASSWORD</label>
-                        <input type="password" id="CONFIRMpassword" name="CONFIRMpassword" minlength="8"required>
+                        <input type="password" id="CONFIRMpassword" name="CONFIRMpassword" minlength="8" placeholder="Confirm passoword">
                     </div>
                 </div>
             </form>
