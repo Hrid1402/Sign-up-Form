@@ -3,14 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
-*{
-    border: red solid 0px;
-}
+
 :root{
     --backgroundPageColor: #f9fafb;
 }
 body{
-    overflow: hidden;
     background-color: var(--backgroundPageColor);
     padding: 0%;
     margin: 0;
@@ -26,7 +23,7 @@ body{
     justify-content: center;
     align-items: center;
     position: absolute;
-    padding: 0px 194px;
+    padding: 25px 194px;
     top: 200px;
     align-self: center;
     background-color: rgba(0, 0, 0, 0.5);
@@ -36,7 +33,6 @@ body{
     font-family: 'Norse', sans-serif;
     font-size: 120px;
     margin: 0;
-    padding: 0%;
 }
 .mainText{
     font-family: 'Roboto', sans-serif;
@@ -53,7 +49,7 @@ body{
 }
 .rightSide{
     display: flex;
-    padding: 70px 0px;
+    padding-top: 70px;
     width: 100%;
     
     flex-direction: column;
